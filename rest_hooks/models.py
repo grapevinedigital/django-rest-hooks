@@ -79,7 +79,6 @@ class AbstractHook(models.Model):
 
     class Meta:
         abstract = True
-        managed = False
 
     def clean(self):
         """ Validation for events. """
